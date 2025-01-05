@@ -1,3 +1,6 @@
+<a id="spanish-section"></a>
+
+
 # Word of Day - 🕹️ Juego de Preguntas Retro
 
 > ¡Responde preguntas, desafía tus conocimientos y alcanza la gloria con un estilo retro inspirado en NES.css!  
@@ -6,7 +9,7 @@
 For English, scroll down. ↓
 
 ## 🌟 Switch Language / Cambiar Idioma
-| [English](#english-section) | [Español](#bienvenido-a-word-of-day---juego-de-preguntas-retro) |
+| [English](#english-section) |
 
 ---
 
@@ -80,14 +83,17 @@ Si te gusta el proyecto, no olvides darle una estrella ⭐ en GitHub para apoyar
 
 ---
 
-# Word of Day - 🕹️ Retro Trivia Game
-
 <a id="english-section"></a>
+
+# Word of Day - 🕹️ Retro Trivia Game
 
 > **Choose your knowledge challenge!** 
 > **Word of Day** is a classic trivia game inspired by retro aesthetics, perfect for fans of timeless designs and intellectual challenges.  
 
 > Test your knowledge and immerse yourself in a NES.css-inspired trivia experience. 
+
+## 🌟 Switch Language / Cambiar Idioma
+| [Español](#spanish-section) |
 
 ---
 
