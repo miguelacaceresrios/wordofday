@@ -69,7 +69,6 @@ Revisare tu propuesta lo antes posible. ¡Gracias por tu contribución!
 
 ## 🗽 **Licencia**
 Este proyecto está licenciado bajo la [MIT License](./LICENSE).  
-Siéntete libre de utilizarlo y modificarlo.
 
 ---
 
