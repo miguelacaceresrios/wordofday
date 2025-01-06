@@ -23,7 +23,7 @@ For English, scroll down. ↓
 ---
 
 ## 🎮 **Capturas del Juego**
-![Interfaz del Juego](https://www.tusitio.com/assets/preview-game.jpg)  
+![Interfaz del Juego](./assets/Galaxy-Fold2.png)  
 _El diseño retro que te transportará a otra época._
 
 ---
