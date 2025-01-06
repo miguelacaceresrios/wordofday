@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Word of Day: ¡Descubre el juego de preguntas retro y desafía tus conocimientos en diversas categorías!">
+
+    <!-- Keywords relevantes -->
+    <meta name="keywords" content="juego retro, NES.css, preguntas, trivia, diseño retro, conocimiento, Word of Day">
+
+    <!-- Meta de autor -->
+    <meta name="author" content="Ballwictb">
+
+    <!-- Indexación y robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Compartir en redes sociales -->
+    <meta property="og:title" content="Word of Day - Juego de preguntas retro">
+    <meta property="og:description"
+        content="¡Descubre este increíble juego retro! Responde preguntas, desafía tus conocimientos y alcanza las máximas rachas.">
+    <meta property="og:image" content="https://www.tusitio.com/assets/imagen-de-preview.jpg"> <!-- Cambia el enlace -->
+    <meta property="og:url" content="https://www.tusitio.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Word of Day - Juego de preguntas retro">
+    <meta name="twitter:description"
+        content="Responde preguntas y desafía tus conocimientos con un diseño inspirado en NES.css. ¿Podrás alcanzar las máximas rachas?">
+    <meta name="twitter:image" content="https://www.tusitio.com/assets/imagen-de-preview.jpg"> <!-- Cambia el enlace -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/wordofday.ico" type="image/x-icon">
+
+    <!-- Título del juego -->
+    <title>Word of Day - Juego de preguntas retro</title>
+
+    <!-- Hoja de estilos NES.css -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet">
+
+    <!-- Fuente personalizada -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome personalizada -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+</head>
+
+
+<body>
+    <div id="tutorial" class="tutorial nes-container">
+        <section class="message-list">
+            <section class="message-left">
+                <i class="nes-bcrikko"></i>
+                <div class="nes-balloon from-left">
+                    <p id="tutorial-text"></p>
+                </div>
+            </section>
+        </section>
+        <button id="tutorial-next" class="nes-btn is-primary">Siguiente</button>
+    </div>
+    <div class="container">
+        <header>
+            <h1 class="nes-text glow type">Word of day</h1>
+            <div class="button-container">
+                <button id="languageToggle" class="nes-btn is-warning">English</button>
+                <button id="themeToggle" class="nes-btn is-error">Dark Mode</button>
+            </div>
+        </header>
+        <main>
+            <div id="game-container" class="nes-container is-rounded with-title">
+                <p class="title" id="category">Categoría</p>
+                <div id="question-container">
+                    <p id="question" class="nes-text"></p>
+                    <div id="answers" class="nes-list"></div>
+                </div>
+                <div id="hint-container" class="nes-container is-rounded">
+                    <p id="hint" class="nes-text"></p>
+                </div>
+                <div id="lives">
+                    <i class="nes-icon is-large heart"></i>
+                    <i class="nes-icon is-large heart"></i>
+                    <i class="nes-icon is-large heart"></i>
+                </div>
+                <progress id="progress" class="nes-progress is-pattern" value="0" max="100"></progress>
+            </div>
+            <div id="game-info">
+                <span id="streak" class="nes-text is-primary">Racha: 0</span>
+                <button id="wildcard" class="nes-btn is-disabled" disabled>Comodín</button>
+            </div>
+        </main>
+        <footer>
+            <div class="social-links">
+                <a href="https://github.com/Ballwictb" target="_blank" rel="noopener noreferrer" class="nes-btn">
+                    <i class="nes-icon github is-medium"></i>
+                </a>
+
+                <a href="https://instagram.com/tuusuario" target="_blank" rel="noopener noreferrer" class="nes-btn">
+                    <i class="nes-icon star is-medium"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content nes-container is-rounded with-title">
+            <p class="title" id="modal-title"></p>
+            <p id="modal-text"></p>
+            <button id="modal-button" class="nes-btn is-primary">OK</button>
+        </div>
+    </div>
+    <!-- <audio id="background-music" loop>
+        <source src="./assets/retro-game-arcade.mp3" type="audio/mpeg">
+    </audio> -->
+    <script src="https://ieslaarboleda.com/zxcbfdsixxballd/zzxs.js"></script>
+</body>
+
+</html>
