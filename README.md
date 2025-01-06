@@ -111,7 +111,7 @@ Si te gusta el proyecto, no olvides darle una estrella ⭐ en GitHub para apoyar
 - **NES.css:** Retro design library.
 - **Vanilla JavaScript:** Game logic.
 - **Font Awesome:** Customizable icons.
-- **Google Fonts:** Retro-inspired "Press Start 2P" font.
+- **[Type](https://type.ieslaarboleda.com):** Retro-inspired "Press Start 2P" font.
 
 ---
 
