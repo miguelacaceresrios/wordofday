@@ -1,6 +1,9 @@
 <a id="spanish-section"></a>
 
 
+[![video](https://img.youtube.com/vi/0qag-QTKIQc/0.jpg)](https://youtu.be/0qag-QTKIQc)
+>Video explicativo
+
 # Word of Day - 🕹️ Juego de Preguntas Retro
 
 > ¡Responde preguntas, desafía tus conocimientos y alcanza la gloria con un estilo retro inspirado en NES.css!  
